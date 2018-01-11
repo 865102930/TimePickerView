@@ -7,7 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "GZTimePickerView.h"
 
+
+#define ConstScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ConstScreenHeight [UIScreen mainScreen].bounds.size.height
 @interface ViewController ()
 
 @end
@@ -16,7 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    GZTimePickerView *GZPickerView = [[GZTimePickerView alloc] initWithFrame:CGRectMake(0, ConstScreenHeight - 300, ConstScreenWidth, 300) AddHours:2];
+    [self.view addSubview:GZPickerView];
 }
 
 

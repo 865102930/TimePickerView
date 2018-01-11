@@ -15,6 +15,7 @@
 		25526B7B1F90F01100D33280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25526B791F90F01100D33280 /* LaunchScreen.storyboard */; };
 		25526B861F90F01100D33280 /* TimePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25526B851F90F01100D33280 /* TimePickerViewTests.m */; };
 		25526B911F90F01100D33280 /* TimePickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25526B901F90F01100D33280 /* TimePickerViewUITests.m */; };
+		25526BA31F90F09100D33280 /* GZTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25526BA21F90F09100D33280 /* GZTimePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		25526B8C1F90F01100D33280 /* TimePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25526B901F90F01100D33280 /* TimePickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimePickerViewUITests.m; sourceTree = "<group>"; };
 		25526B921F90F01100D33280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25526BA11F90F09100D33280 /* GZTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZTimePickerView.h; sourceTree = "<group>"; };
+		25526BA21F90F09100D33280 /* GZTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZTimePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				25526B6F1F90F01100D33280 /* AppDelegate.m */,
 				25526B711F90F01100D33280 /* ViewController.h */,
 				25526B721F90F01100D33280 /* ViewController.m */,
+				25526BA11F90F09100D33280 /* GZTimePickerView.h */,
+				25526BA21F90F09100D33280 /* GZTimePickerView.m */,
 				25526B741F90F01100D33280 /* Main.storyboard */,
 				25526B771F90F01100D33280 /* Assets.xcassets */,
 				25526B791F90F01100D33280 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				25526B731F90F01100D33280 /* ViewController.m in Sources */,
 				25526B701F90F01100D33280 /* AppDelegate.m in Sources */,
+				25526BA31F90F09100D33280 /* GZTimePickerView.m in Sources */,
 				25526B6D1F90F01100D33280 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4GPDLP6DKN;
 				INFOPLIST_FILE = TimePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.workapp.www.TimePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4GPDLP6DKN;
 				INFOPLIST_FILE = TimePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.workapp.www.TimePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +526,7 @@
 				25526B971F90F01100D33280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25526B981F90F01100D33280 /* Build configuration list for PBXNativeTarget "TimePickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				25526B9A1F90F01100D33280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25526B9B1F90F01100D33280 /* Build configuration list for PBXNativeTarget "TimePickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +544,7 @@
 				25526B9D1F90F01100D33280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
